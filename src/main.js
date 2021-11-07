@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import ECharts from 'echarts'
+import * as ECharts from 'echarts'
 import App from './App.vue'
 import router from './router'
 import './plugins/element.js'
