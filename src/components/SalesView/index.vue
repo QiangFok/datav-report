@@ -1,10 +1,15 @@
 <template>
-  <div>sales view</div>
+  <div>111</div>
 </template>
 
 <script>
+  /* eslint-disable */
   export default {
-    name: "index"
+    name: "index",
+    data() {
+      return {
+      }
+    }
   }
 </script>
 
