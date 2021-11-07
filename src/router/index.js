@@ -9,6 +9,21 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/bmap',
+    name: 'BMap',
+    component: () => import('@/views/BMap')
+  },
+  {
+    path: '/liquidfill',
+    name: 'Liquidfill',
+    component: () => import('@/views/Liquidfill')
+  },
+  {
+    path: '/wordCloud',
+    name: 'WordCloud',
+    component: () => import('@/views/WordCloud')
   }
 ]
 
