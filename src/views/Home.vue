@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <top-view/>
-    <sales-view/>
-    <bottom-view/>
-    <map-view/>
+    <top-view />
+    <sales-view />
+    <bottom-view />
+    <map-view />
   </div>
 </template>
 
@@ -13,6 +13,10 @@
   import BottomView from '../components/BottomView'
   import MapView from '../components/MapView'
 
+  import {
+    wordcloud
+  } from '../api/index.js'
+
   export default {
     name: 'Home',
     components: {
@@ -20,6 +24,9 @@
       SalesView,
       BottomView,
       MapView
+    },
+    mounted() {
+      wordcloud()
     }
   }
 </script>
